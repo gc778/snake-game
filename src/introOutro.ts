@@ -1,3 +1,5 @@
+// Before the game start screen.
+
 export const drawInstructions = (ctx:any, canvas:any):undefined => {
    
 const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
@@ -33,6 +35,8 @@ ctx.fillText("🔄 Press (start / re-start) above to begin", canvas.width/2, 340
 return;
 }
 
+// End game screen.
+
 export const gameOver = (ctx:any, canvas:any):undefined => {
    
 const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
@@ -52,6 +56,7 @@ ctx.shadowBlur = 0;
 return;
 }
 
+// Victory screen
 export const victory = (ctx:any, canvas:any):undefined => {
    
 const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);

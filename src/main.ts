@@ -33,7 +33,7 @@ const cellSize: number = 10;
 drawInstructions(context, canvas);
 
 /////////////
-/////////////
+///////////// Bellow are the main functions used by the animation loop function 'play' bellow.
 /////////////
 
 const rnd = (min: number, max: number): number => {
@@ -70,8 +70,8 @@ return;
 }
 
 /////////////
-/////////////
-/////////////
+///////////// Bellow are are event listners for tablet and mobile. We are looking for taps on one of 4 sccreen sides.
+///////////// Each screen side will get an arrow painted by 'drawTouchZones' function bellow.
 
 canvas!.addEventListener('touchstart', function(e) {
     e.preventDefault();
@@ -150,8 +150,8 @@ if (isMobileDevice()) {
 }
 }
 /////////////
-/////////////
-/////////////
+///////////// Bellow are event listners for keyboard. We are looking for arrow key presses. 
+///////////// Game starts/re-stars with the press of start/re-start button. 
 
 document.addEventListener("keydown", function (e) {
   if (rdyForNextMove && e.key == "ArrowUp" && (moveDir == "left" || moveDir == "right")) {
@@ -198,8 +198,8 @@ requestAnimationFrame(play);
 });
 
 /////////////
-/////////////
-/////////////
+///////////// Bellow is the main animation loop that which progresses the game appropriately depending on which direction the
+///////////// snake is presently moving.
 
 
 let counter: number = 0;
