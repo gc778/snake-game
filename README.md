@@ -10,9 +10,9 @@ Walkthrough creation of the snake game.
   - [x] A button to start the game.
   - [x] A label element containing an output elelemnt to keep track of the score.
   - [x] A canvas element bellow controls where the game will be displayed.
-  - [] Create a start game welcome screen on top of the canvas.
+  - [x] Create a start game welcome screen on top of the canvas.
 
-        - [] In the start screen outline the rules of the game.
+        - [x] In the start screen outline the rules of the game.
 
 ## SCSS Layout and styling
 
@@ -23,7 +23,7 @@ Walkthrough creation of the snake game.
   - [x] Controls container should be on top of game canvas.
   - [x] justify-content: space-between.
 
-## Programming and what to do next
+## Type Script 
 
 - [x] Learn how to use a canvas element first.
 
@@ -43,4 +43,4 @@ Walkthrough creation of the snake game.
           - [x] You lose if you hit a wall or yourself.
           - [x] You win if your score reaches some amount say 100.
           - [x] In either case dispay an end game screen on top of the canvas.
-          
+
