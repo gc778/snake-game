@@ -235,6 +235,7 @@ if (moveDir === "up") {
   {
     updateHeadTail(headX, headY, tailX, tailY);
   }
+  rdyForNextMove = true;
 }
 
 if (moveDir === "down") {
@@ -260,6 +261,7 @@ if (moveDir === "down") {
   {
     updateHeadTail(headX, headY, tailX, tailY);
   }
+  rdyForNextMove = true;
 }
 
 if (moveDir === "right") {
@@ -285,6 +287,7 @@ if (moveDir === "right") {
   {
     updateHeadTail(headX, headY, tailX, tailY);
   }
+  rdyForNextMove = true;
 }
 
 if (moveDir === "left") {
@@ -310,8 +313,8 @@ if (moveDir === "left") {
   {
     updateHeadTail(headX, headY, tailX, tailY);
   }
+  rdyForNextMove = true;
 }
-rdyForNextMove = true;
 return;
 };
 
