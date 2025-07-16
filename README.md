@@ -1,6 +1,16 @@
 # Snake Game
 
-Walkthrough creation of the snake game.
+## Controling the snake
+
+You can press start/re-start at any time to start/re-start the game.
+
+On a computer with a keyboard you can control the snake using arrow keys. On a phone or tablet you can control the sanke by tapping on the corners of the screen. For convenience (on a phone or a tablet) there will be foure directional arrows on each side of the screen. 
+
+## Gameplay
+
+Gameplay is simple you will control the snake and try to grow it by consuming apples that would randomply appear on the screen. There will be at most one apple on a screen at a time. You will lose the game if the snake hits one of foure boarders or itself. You will win the game if you can score 100 points. You will earn one point for each apple you consume.
+
+## Walkthrough creation of the snake game.
 
 ## HTML Content
 
